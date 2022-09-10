@@ -1,0 +1,125 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 100vh;
+}
+
+p {
+  font-size: 15px;
+  color: darkgrey;
+}
+
+.state {
+  background-color: hsl(213, 19%, 18%);
+  margin: 1%;
+  width: 26%;
+  text-align: left;
+  padding: 23px;
+  min-height: 40vh;
+  border-radius: 25px;
+}
+
+.rating img {
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgb(105, 101, 101);
+  display: block;
+  margin: 15px 0;
+}
+
+.number-flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.btn {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  background-color: rgb(68 66 74);
+  color: hsl(216, 12%, 54%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn:focus {
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 11px;
+  border-radius: 30px;
+  border: 0;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  margin-bottom: 3vh;
+}
+
+.btn-submit:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.thank-you {
+  text-align: center;
+}
+
+.thank-you img {
+  margin-top: 15px;
+}
+
+.thank-you p:nth-of-type(1) {
+  color: orange;
+  background-color: grey;
+  width: auto;
+  max-width: 25vh;
+  margin: 20px auto;
+  border-radius: 20px;
+  padding: 7px 7px 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 700px) {
+  .state {
+    width: auto;
+    margin: 3vh;
+  }
+}
